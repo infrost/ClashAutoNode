@@ -1,0 +1,23 @@
+{
+    "global":{
+        "clash_api_url": "http://127.0.0.1:9999",
+        "secret": "you_secret",
+        "com_port": "20210",
+        "selector": "GLOBAL",
+        "mode": "global"
+    },
+    "delay_list":{
+        "tolerance": 3000,
+        "skip_keywords":{
+            "start_with":["GLOBAL", "DIRECT", "REJECT", "剩余流量", "套餐到期","推荐使用", "故障转移", "电报群", "自动选择", "节点用不了"],
+            "end_with": "",
+            "contains": ["-4x"],
+            "reverse": false
+        },
+        "update_interval": "1200"
+    },
+    "ipautochange": {
+        "enable": false,
+        "refresh_interval": "60"
+    }
+}
